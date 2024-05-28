@@ -1,2 +1,2 @@
-# django_sandbox
+# Django Sandbox
 Django sandbox project
