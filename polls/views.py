@@ -20,7 +20,7 @@ def detail(request, question_id):
     # pk=x indicates that x is a primary key of the object being referred to.
     question = get_object_or_404(Question, pk=question_id)
 
-    return render(request, "polls/details.html", {"question": question})
+    return render(request, "polls/detail.html", {"question": question})
 
 def results(request, question_id):
     response = "You're looking at the results of question %s."
