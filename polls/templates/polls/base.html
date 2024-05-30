@@ -12,14 +12,14 @@
 
     <header>
         {% block header %}{% endblock %}
-        <a href="/">Home</a>
+        <a href="/">Home</a> <!-- Goes to the same place for now -->
         <a href="/polls">Polls</a>
     </header>
 
     <body>
         <div class="container">
             <div class="content">
-                <img src="{% static 'polls/images/favicon.ico' %}">
+                <!-- <img src="{% static 'polls/images/favicon.ico' %}"> -->
                 {% block content %}{% endblock %}
             </div>
         </div>
