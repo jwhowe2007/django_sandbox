@@ -1,0 +1,26 @@
+header {
+    position: relative;
+    margin: auto 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid black;
+}
+
+footer {
+    position: relative;
+    margin: auto 1em;
+    padding-top: 0.5em;
+    border-top: 2px solid black;
+}
+
+#bodyContent {
+    margin: 1em;
+    height: 90vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+}
